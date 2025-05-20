@@ -1,27 +1,34 @@
-alert("Alerta desde js");
+//alert("Alerta desde js");
+//asdkjaslkdjsalkdjalkjdaslkdj slakjdlakj salj asjl 
+/*
+asldkaslkdjaslkd
+asdjaskldjalkdasjda
+sdjasdasldkasjda
+*/
+console.log("Hola desde index.js");
 
-// console.log("Hola desde index.js")
-
-const nombreInstructor = "Gaia"
-const apellidoInstructor = "Della Santina"
+const nombreInstructor = "Ezequiel"
+const apellidoInstructor = "Mondino"
 
 const nombreCompleto = nombreInstructor + " " + apellidoInstructor
 
 const nombreCompletoMejorado = `${nombreInstructor} ${apellidoInstructor}`
 
-console.log(nombreCompletoMejorado)
+let edad = 1992;
 
-let edad = 17;
 
-let edadUsuario = prompt("indicame tu edad:")
+let FN = prompt("Indicame tu fecha de nacimiento:")
 
+let edadUsuario = 2025 - FN
 
 alert("tu edad es: " + edadUsuario)
 
 
+edad = 30
 
 
-edad = 7
 
-console.log("mi edad es: " + edad)
+
+
+console.log("mi edad es:" + edad)
 
